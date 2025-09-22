@@ -15,7 +15,7 @@ fun CardExample() {
         elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
     ) {
         Text(
-            text = "Soy la versión MAIN", // versión main
+            text = "Soy la versión FINAL después del merge",
             modifier = Modifier.padding(16.dp)
         )
     }

@@ -10,12 +10,12 @@ import androidx.compose.ui.unit.dp
 
 @Composable
 fun LazyColumnExample() {
-    val itemsList = listOf("Película 1", "Película 2", "Película 3", "Película 4", "Película 5")
+    val itemsList = listOf("Película 1", "Película 2", "Película 3")
     LazyColumn(
-        modifier = Modifier.fillMaxSize().padding(16.dp)
+        modifier = Modifier.fillMaxSize().padding(32.dp) // cambio de 16 a 32
     ) {
         items(itemsList) { item ->
-            Text(text = item)
+            Text(text = "🎬 $item") // añadimos un ícono
         }
     }
 }

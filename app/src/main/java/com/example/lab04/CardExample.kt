@@ -15,9 +15,8 @@ fun CardExample() {
         elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
     ) {
         Text(
-            text = "Versión desde conflict-test",
+            text = "Soy la versión CONFLICT-TEST",
             modifier = Modifier.padding(16.dp)
         )
-
     }
 }

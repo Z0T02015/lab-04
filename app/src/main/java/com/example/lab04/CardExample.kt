@@ -15,7 +15,7 @@ fun CardExample() {
         elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
     ) {
         Text(
-            text = "Soy una Card de ejemplo",
+            text = "Versión desde main", //  cambio aquí (Error)
             modifier = Modifier.padding(16.dp)
         )
     }
